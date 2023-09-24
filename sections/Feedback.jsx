@@ -54,7 +54,7 @@ const Feedback = () => (
         <img
           src='planet-09.png'
           alt='Metaverse Rocket'
-          className='object-cover h-full rounded-[34px] '
+          className=' h-full rounded-[34px] w-full '
         />
         <a href='#joinMetaverse' className='cursor-pointer'>
           <img
