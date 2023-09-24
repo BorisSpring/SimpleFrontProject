@@ -19,7 +19,7 @@ const Feedback = () => (
       variants={{
         hidden: {
           opacity: 0,
-          y: 200,
+          y: 100,
           x: 0,
         },
         show: {
@@ -50,7 +50,7 @@ const Feedback = () => (
           use it as anything”
         </p>
       </div>
-      <div className='lg:h-[610px] lg:w-[768px] m-auto relative'>
+      <div className='lg:h-[610px] lg:w-[768px] m-auto relative '>
         <img
           src='planet-09.png'
           alt='Metaverse Rocket'
@@ -59,7 +59,7 @@ const Feedback = () => (
         <a href='#joinMetaverse' className='cursor-pointer'>
           <img
             src='/stamp.png'
-            className='w-[155px] h-[155px] top-[10%] left-[-10%] absolute'
+            className='w-[77px] h-[77px] md:w-[155px] md:h-[155px] top-[10%] left-[-10%] absolute'
           />
         </a>
       </div>
